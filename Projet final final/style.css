@@ -1,0 +1,95 @@
+body {
+	background-image: url('images/wallpaper.jpg');
+	background-size : cover;
+	color : rgb(200;200;200);
+	font-family : georgia;
+	font-size: 20px;
+	font-weight : light;
+}
+
+h1, h2 {font-family: 'garamond', sans-serif;
+font-weight : bold}
+
+img {
+	width : 300px;
+	height : 300px
+}
+
+h1 {
+	color : white;
+	font-weight : 300;
+	letter-spacing : 4px;
+	font-size : 60px;
+	font-weight : bold;
+}
+
+h2{
+	color : #1f5673;
+	font-weight : 300;
+	font-size : 40px;
+}
+
+a {
+	text-decoration : none;
+	color : #41521f;
+	font-weight : bold
+}
+
+
+a:hover{
+	color : #c9e3ac
+}
+
+
+.container{
+	width : 700px;
+	margin : 50px auto;
+	padding : 50px;
+	border-radius : 10px;
+	text-align : center
+}
+
+
+@media(max-width : 750px) {
+	.container{
+		width : 650px;
+	} 
+}
+
+
+@media(max-width : 500px) {
+	.container{
+		width : 400px;
+	}
+}
+
+
+
+.card-white{
+	background-color : white;
+	padding : 40px;
+	box-shadow : 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius : 7px;
+	margin : 30px 0px auto;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.5);
+}
+
+
+.img-circle {
+	border-radius : 50%;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.5);
+}
+
+
+.list-inline{
+	list-style : none;
+	padding-left : 0px;
+}
+.list-inline li {
+	display : inline;
+	padding : 20px;
+}
+.list-inline i {
+	font-size : 50px;
+	color : dark blue;
+}	
